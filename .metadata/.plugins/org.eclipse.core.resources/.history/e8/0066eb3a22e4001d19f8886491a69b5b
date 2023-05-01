@@ -1,0 +1,38 @@
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Manager m=new Manager(1, "Madhur",10000,2000);
+		System.out.println("==========MANAGER DATA============");
+		display(m);
+		///////////////////////////////////////////////////////////////
+		Developer d=new Developer(2,"Ayush",20000, 10);
+		System.out.println("=============DEVELOPER DATA===========");
+		display(d);
+		////////////////////////////////////////////////////////////////
+		TestingDepartment td=new TestingDepartment(3,"Ganesh",20000, 1);
+		System.out.println("=========TESTING DATA=========");
+		display(td);
+		///////////////////////////////////////////////////////////////////
+	
+	}
+	public static void display(Employee e)
+	{
+		System.out.println("Manager id"+e.getEmpid());
+		System.out.println("Manager Name"+e.getEmpname());
+		System.out.println("Manager Sal"+e.getEmpsal());
+		System.out.println("Manager id"+e.getBonus());
+		
+		System.out.println("Developer id"+e.getEmpid());
+		System.out.println("Developer Name"+e.getEmpname());
+		System.out.println("Developer Sal"+e.getEmpsal());
+		System.out.println("Developer Hour"+e.getHour());
+		
+		System.out.println("TestingDepartment id"+e.getEmpid());
+		System.out.println("TestingDepartment name"+e.getEmpname());
+		System.out.println("TestingDepartment sal"+e.getEmpsal());
+		System.out.println("TestingDepartment nooftestcases"+te.getNooftestcases());
+		
+	}
+
+}

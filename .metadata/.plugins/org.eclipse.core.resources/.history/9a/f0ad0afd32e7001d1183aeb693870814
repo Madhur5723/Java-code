@@ -1,0 +1,10 @@
+
+public class ShapeMain {
+	
+public static void main(String[] args) {
+	Shape s[]=new Shape[3];
+	s[0]=new Circle(2,2);
+	
+	
+}
+}

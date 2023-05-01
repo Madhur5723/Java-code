@@ -1,0 +1,11 @@
+
+public class Son extends Father
+{
+	private int sage;
+	public Son(int sage)
+	{
+		this.sage=sage;
+		
+	}
+
+}

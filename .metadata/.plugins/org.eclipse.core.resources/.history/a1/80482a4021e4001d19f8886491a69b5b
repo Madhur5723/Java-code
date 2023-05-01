@@ -1,0 +1,31 @@
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Manager m=new Manager(1, "Madhur",10000,2000);
+		System.out.println("==========MANAGER DATA============");
+		System.out.println("Manager id"+m.getEmpid());
+		System.out.println("Manager Name"+m.getEmpname());
+		System.out.println("Manager Sal"+m.getEmpsal());
+		System.out.println("Manager id"+m.getBonus());
+		
+		Developer d=new Developer(2,"Ayush",20000, 10);
+		System.out.println("=============DEVELOPER DATA===========");
+		System.out.println("Developer id"+d.getEmpid());
+		System.out.println("Developer Name"+d.getEmpname());
+		System.out.println("Developer Sal"+d.getEmpsal());
+		System.out.println("Developer Hour"+d.getHour());
+		
+		TestingDepartment td=new TestingDepartment(3,"Ganesh",20000, 1);
+		System.out.println("=========TESTING DATA=========");
+		System.out.println("TestingDepartment id"+td.getEmpid());
+		System.out.println("TestingDepartment name"+td.getEmpname());
+		System.out.println("TestingDepartment sal"+td.getEmpsal());
+		System.out.println("TestingDepartment noodshifts"+td.getNooftestcases());
+
+		
+
+
+	}
+
+}

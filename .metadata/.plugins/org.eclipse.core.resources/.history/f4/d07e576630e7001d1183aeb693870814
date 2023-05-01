@@ -1,0 +1,13 @@
+
+public class Triangle {
+	private double b,h;
+
+	public Triangle(double b, double h) {
+		super();
+		this.b = b;
+		this.h = h;
+	}
+	
+	
+
+}

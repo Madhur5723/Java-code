@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="EmployeeManager"/>
+    <fullyQualifiedTypeName name="AccountManager"/>
+    <fullyQualifiedTypeName name="ProductMain"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="ProductInfo"/>
+    <fullyQualifiedTypeName name="AccountInfo"/>
+    <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="javax.security.sasl.SaslException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Address"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="ShopInfo"/>
+    <fullyQualifiedTypeName name="Father"/>
+    <fullyQualifiedTypeName name="Son"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="Manager"/>
+    <fullyQualifiedTypeName name="javax.swing.DebugGraphics"/>
+    <fullyQualifiedTypeName name="Developer"/>
+    <fullyQualifiedTypeName name="TestingDepartment"/>
+    <fullyQualifiedTypeName name="Shape"/>
+    <fullyQualifiedTypeName name="Circle"/>
+    <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="Triangle"/>
+</qualifiedTypeNameHistroy>

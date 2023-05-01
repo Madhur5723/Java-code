@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int arr[];//array declaration
+		int i;
+		ArrayOperation a=new ArrayOperation();
+		Scanner sc=new Scanner(System.in);
+		arr=a.createArray();
+		a.displayArray(arr);
+	
+		
+
+}

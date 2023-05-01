@@ -1,0 +1,20 @@
+//This is called as polymorphism one method and many forms 
+//Runtime Polymorphism
+//This is one way to represent output 
+
+///////////////////////////////////////////////////////////
+/*public class Main {
+	public static void main(String[] args) {
+		Shape s=null;
+		s=new Circle(2, 2);
+		s.Area();
+		
+		s=new Rectangle(3, 4);
+		s.Area();
+		
+		s=new Triangle(4, 4);
+		s.Area();
+		
+	}
+}*/
+//////////////////////////////////////////////////////////////

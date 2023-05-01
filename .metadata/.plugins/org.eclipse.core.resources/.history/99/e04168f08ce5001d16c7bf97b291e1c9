@@ -1,0 +1,18 @@
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+		Manager m=new Manager(1,"Madhur",10000,2000);
+		System.out.println("=================MANAGER DATA==============");
+		display(m, "Manager");
+		System.out.println("============================================");
+		Developer d=new Developer(2,"Mohit",30000,4);
+		
+	}
+	public static void display(Employee e,String str)
+	{
+		System.out.println(str+"Id:"+e.getEmpid());
+		System.out.println(str+"Name:"+e.getEmpname());
+		System.out.println(str+"Sal:"+e.getEmpsal());
+	}
+
+}

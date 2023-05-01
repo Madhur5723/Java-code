@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int arr[];//array declaration
+		int i,ch;
+		ArrayOperation a=new ArrayOperation();
+		Scanner sc=new Scanner(System.in);
+		do
+		{
+		System.out.println("1-Create Array\n2-Display Array\n3-Search Array");
+		System.out.println("enter your choice");
+		 ch=sc.nextInt();
+		switch(ch)
+		{
+		case 1:
+			arr=a.createArray();
+			break;
+		case 2:
+			a.displayArray(arr);
+			break;
+		default:
+			System.out.println("Invalid choice");
+		}
+	System.out.println("do you want to continue press 1");
+	}while(ch==1)
+}
+}	
+		
+
+

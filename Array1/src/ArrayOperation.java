@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class ArrayOperation {
+	public int[] createArray()
+	{
+	int arr[];
+	int i;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("how many items u want in array");
+	int n=sc.nextInt();
+	arr=new int[n];
+	System.out.println("enter elements in the array");
+	for(i=0;i<arr.length;i++)
+	{
+		arr[i]=sc.nextInt();
+	}
+	return arr;
+	}
+	public void displayArray(int arr[])
+	{
+		System.out.println("elements of the array are...");
+		for (int i=0;i<arr.length;i++)
+		{
+			System.out.println(arr[i]);
+		}
+	}
+	public int searchData(int arr[],int s)
+	{
+		boolean b=-1;
+		for(int i=0;i<arr.length;i++)
+		{
+			if(s==arr[i])
+			{
+				b=true;
+				break;
+			}
+		}
+
+	return b;
+}
+
+}

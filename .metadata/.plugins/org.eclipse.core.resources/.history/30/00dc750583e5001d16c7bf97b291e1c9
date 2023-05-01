@@ -1,0 +1,9 @@
+
+public class Grandfather {
+	private String gage;
+	public Grandfather(String gage) {
+		super();
+		this.gage = gage;
+	}
+	
+}

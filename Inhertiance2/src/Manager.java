@@ -1,0 +1,28 @@
+
+public class Manager extends Employee {
+	private int bonus;
+
+	public Manager(int empid, String empname, double empsal, int bonus) {
+		super(empid, empname, empsal);
+		this.bonus = bonus;
+	}
+
+	public int getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(int bonus) {
+		this.bonus = bonus;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Manager id:"+getEmpid()+"\nManager Name:"+getEmpname()+"\nManager Sal:"+getEmpsal()+"\nManager Bonus"+getBonus();
+		
+		
+	}
+	
+	
+
+}

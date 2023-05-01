@@ -1,0 +1,43 @@
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+		Manager m=new Manager(1,"Madhur",10000,2000);
+		System.out.println("=================MANAGER DATA==============");
+		display(m, "Manager");
+		System.out.println("============================================");
+		Developer d=new Developer(2,"Mohit",30000,4);
+		System.out.println("=================DEVELOPER DATA==============");
+		display(d,"Developer");
+		System.out.println("============================================");
+		TestingDepartment td=new TestingDepartment(3,"Mukesh",40000,3);
+		System.out.println("=================TESTER DATA==============");
+		display(td,"Tester ");
+		System.out.println("============================================");
+		
+		
+	}
+	public static void display(Employee e,String str)
+	{
+		System.out.println(eobj);
+//		System.out.println(str+"Id:"+e.getEmpid());
+//		System.out.println(str+"Name:"+e.getEmpname());
+//		System.out.println(str+"Sal:"+e.getEmpsal());
+//		if(e instanceof Manager)
+//		{
+//			//downCasting
+//			Manager m=(Manager)e;
+//					System.out.println("Manager Bonus:"+m.getBonus());
+//		}
+//		if(e instanceof Developer)
+//		{
+//			Developer d=(Developer)e;
+//			System.out.println("Developer Hour:"+d.getHour());	
+//		}
+//		if(e instanceof TestingDepartment)
+//		{
+//			TestingDepartment td=(TestingDepartment)e;
+//					System.out.println("Tester Testcases:"+td.getNooftestcases());
+//		}
+	}
+
+}
