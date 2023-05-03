@@ -7,11 +7,8 @@
     <fullyQualifiedTypeName name="ProductInfo"/>
     <fullyQualifiedTypeName name="AccountInfo"/>
     <fullyQualifiedTypeName name="Product"/>
-    <fullyQualifiedTypeName name="Main"/>
     <fullyQualifiedTypeName name="javax.security.sasl.SaslException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Address"/>
-    <fullyQualifiedTypeName name="Account"/>
     <fullyQualifiedTypeName name="Customer"/>
     <fullyQualifiedTypeName name="ShopInfo"/>
     <fullyQualifiedTypeName name="Father"/>
@@ -22,7 +19,25 @@
     <fullyQualifiedTypeName name="Developer"/>
     <fullyQualifiedTypeName name="TestingDepartment"/>
     <fullyQualifiedTypeName name="Shape"/>
+    <fullyQualifiedTypeName name="Guitar"/>
+    <fullyQualifiedTypeName name="Piano"/>
+    <fullyQualifiedTypeName name="Flute"/>
+    <fullyQualifiedTypeName name="Instrument"/>
+    <fullyQualifiedTypeName name="RandomClassDemo"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="Account"/>
     <fullyQualifiedTypeName name="Circle"/>
     <fullyQualifiedTypeName name="Rectangle"/>
     <fullyQualifiedTypeName name="Triangle"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="Automobile"/>
+    <fullyQualifiedTypeName name="Maruti"/>
+    <fullyQualifiedTypeName name="Toyota"/>
+    <fullyQualifiedTypeName name="Bike"/>
+    <fullyQualifiedTypeName name="HeroHonda"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Helicopter"/>
+    <fullyQualifiedTypeName name="Areoplane"/>
 </qualifiedTypeNameHistroy>

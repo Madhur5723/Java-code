@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	s[1]=new Rectangle(2,2);
 	s[2]=new Triangle(2,2);
 	display(s);
+	
    }
 public static void display(Shape sarr[])
 {
